@@ -54,7 +54,8 @@ Usage:
 ```
 Example: 
 ```sh
-./preprocessing samples/fandisk-normals.off samples/fandisk-oriented.off -orient -nb_neighbors_mst 12```
+./preprocessing samples/fandisk-normals.off samples/fandisk-oriented.off -orient -nb_neighbors_mst 12
+```
 
 ## STRUCTURE
 Possible flags: 
@@ -67,7 +68,8 @@ Possible flags:
 
 Usage: 
 ```sh
-./preprocessing INPUT-ORIENTED-POINT-CLOUD OUTPUT-STRUCTURED-POINT-CLOUD -structure FLAGS VALUES```
+./preprocessing INPUT-ORIENTED-POINT-CLOUD OUTPUT-STRUCTURED-POINT-CLOUD -structure FLAGS VALUES
+```
 Example: 
 ```sh
 ./preprocessing samples/fandisk-oriented.off samples/fandisk-structured.off -structure -epsilon 0.015 -paral true -ortho true -coplan false -zsymmetry true -degree 10
